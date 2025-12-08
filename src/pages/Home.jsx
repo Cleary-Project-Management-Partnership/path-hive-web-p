@@ -5,12 +5,10 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className="bg-gradient-to-b from-[#f9fbfc] via-[#f3f8f8] to-white text-gray-800">
-      {/* 🌟 HERO SECTION */}
       <section className="relative overflow-hidden">
         {/* Background gradient */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#002b45] via-[#003b5a] to-[#00bfa5] opacity-95"></div>
 
-        {/* Decorative blob */}
         <div className="absolute top-[-50px] right-[-100px] w-[400px] h-[400px] bg-[#00bfa5] opacity-30 rounded-full blur-3xl"></div>
 
         <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-6 lg:px-20 py-24">
@@ -49,10 +47,12 @@ export default function Home() {
                 Learn More
               </a>
               <a
-                href="/contact"
+             href="https://youtu.be/33tQNHDSlpk"
+  target="_blank"
+  rel="noopener noreferrer"
                 className="border border-[#00bfa5] text-[#00bfa5] bg-white/10 backdrop-blur-md px-8 py-3 rounded-lg font-semibold hover:bg-[#00bfa5] hover:text-white hover:shadow-lg transition"
               >
-                Get Started
+                Watch Demo
               </a>
             </motion.div>
           </div>

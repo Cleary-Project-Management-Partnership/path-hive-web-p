@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 // src/components/ProductCard.jsx
-export default function ProductCard({ title, img, comingSoon }) {
+export default function ProductCard({ id, title, img, comingSoon }) {
     const isDisable=comingSoon ? true : false;
     
   return (
@@ -35,7 +37,18 @@ export default function ProductCard({ title, img, comingSoon }) {
   }`}
 //  className="mt-6 px-5 py-2.5 bg-[#00A6A6] text-white rounded-xl hover:bg-[#008F8F] transition-all duration-300 shadow-sm hover:shadow-md" 
  disabled={isDisable}>
-        {  comingSoon ? "Stay tuned" :"Learn More"}
+        {  comingSoon ?
+        
+        "Stay tuned" :
+        (
+            <Link
+          to={`/product/${id}`}
+          className="mt-4 px-4 py-2 bg-[#00A8A8] text-white rounded-lg hover:bg-[#008F8F] transition"
+        >
+          Learn More
+        </Link>
+        )
+        }
         </button>
         
       {/* Decorative gradient glow on hover */}

@@ -1,19 +1,18 @@
-# React + Vite
+# Made with React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Colors -> (#001A4B), with aqua/teal accents (#00BFA5)
 
-Currently, two official plugins are available:
+TODOS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Meeting panel, admins
+counter, title
 
-## React Compiler
+- Create a meeting( admin can)
+    - title/date, participant name/mail,admin info(name and email), description, URL
+    (later on) map questions to meeting, add notes and custom questions
+    populate data from DB for next meeting
+    - final goal to have in the form of PDF or data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+System->auth,db,login,signup
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
-(#001A4B), with aqua/teal accents (#00BFA5)
+Deliverable for next week->Questions part

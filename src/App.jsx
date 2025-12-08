@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import PathHiveSoftware from "./pages/PathHiveSoftware";
 import Footer from "./components/Footer";
+import ProductPage from "./components/ProductPage";
+import Dashboard from "./pages/Dashboard";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<PathHiveSoftware />} />
+                <Route path="/product/:id" element={<ProductPage />} />
+<Route path="/dashboard" element={<Dashboard />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </main>
