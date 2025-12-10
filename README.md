@@ -16,3 +16,9 @@ counter, title
 System->auth,db,login,signup
 
 Deliverable for next week->Questions part
+
+TODO's
+- send out email to participants with summary
+    Email format
+    
+- timer with questions

@@ -7,6 +7,8 @@ import PathHiveSoftware from "./pages/PathHiveSoftware";
 import Footer from "./components/Footer";
 import ProductPage from "./components/ProductPage";
 import Dashboard from "./pages/Dashboard";
+import { AboutPage } from "./components/About";
+import { ContactPage } from "./components/Contact";
 
 export default function App() {
   return (
@@ -14,6 +16,9 @@ export default function App() {
       <Header />
       <main className="flex-1">
         <Routes>
+
+<Route path="/about" element={<AboutPage />} />
+<Route path="/contact" element={<ContactPage />} />
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<PathHiveSoftware />} />
                 <Route path="/product/:id" element={<ProductPage />} />
