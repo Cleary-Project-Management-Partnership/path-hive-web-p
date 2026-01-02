@@ -17,8 +17,14 @@ System->auth,db,login,signup
 
 Deliverable for next week->Questions part
 
-TODO's
+# TODO's
+
+- capture data in PDF
+- About, Contact us page
 - send out email to participants with summary
     Email format
-    
+- website polishing 
+
+
+- database 
 - timer with questions
