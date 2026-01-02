@@ -14,3 +14,9 @@ auth guard route for demo
 - About 
 Meet
 - Contact
+
+
+- 1st layer improvements after Audit
+
+- Signup/SignIn
+- Database
